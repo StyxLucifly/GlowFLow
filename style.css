@@ -5,13 +5,19 @@
     font-family: Arial, sans-serif;
 }
 
-body {
+
+body{
+    margin: 0;
+    background-color: #10454F;
+}
+
+/* body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: #083b46;
-}
+} */
 
 .container {
     width: 300px;
@@ -91,4 +97,120 @@ body {
 .signup-link a {
     color: #f8a500;
     text-decoration: none;
+}
+
+
+
+/* navbar: */
+
+
+
+/* navbar */
+
+.menu {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #10454F;
+    color: white;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    padding-top: 60px;
+    z-index: 1001;
+}
+
+.menu.active {
+    transform: translateX(0);
+}
+
+.menu a {
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 18px;
+}
+
+.menu-toggle {
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #F29F05;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1000;
+    pointer-events: none;
+}
+
+.overlay.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+
+/* home */
+
+.HomeImageContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.down-arrow {
+    transform: translateX(-50%);
+    font-size: 30px; /* Grootte van de pijl */
+    color: #F29F05; /* Kleur van de pijl */
+    margin-bottom: 20px;
+    animation: bounce 2s infinite ease-in-out; /* Animatie toevoegen */
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px); /* Pas dit aan voor de stuiterhoogte */
+    }
+}
+
+.HomeImage {
+    position: relative; /* Voor positionering van de pijl */
+    width: 90%;
+    height: 550px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), 
+                      url('../img/HomeImage.jpg'); /* Vervang met het juiste afbeeldingspad */
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+
+.HomeImageText{
+    position: absolute;
+    left: 0;
+}
+
+.DiscoverText{
+
+}
+
+.GlowFlowText{
+    color: #F29F05;
+    font-weight: bold;
 }
