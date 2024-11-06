@@ -4,7 +4,7 @@
         <a href="index.php">Home</a>
         <a href="#">About us</a>
         <a href="#">Our product</a>
-        <a href="#">Register</a>
+        <a href="inlog.php">Register</a>
         <a href="#">Contact</a>
         <a href="#">Manage</a>
         <div onclick="toggleMenu()">X</div>

@@ -21,25 +21,7 @@ body{
 
 .container {
     width: 300px;
-    padding: 20px;
-    background-color: #083b46;
-    color: #ffffff;
     text-align: center;
-}
-
-.menu-icon {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 20px;
-    cursor: pointer;
-}
-
-.menu-icon .bar {
-    width: 30px;
-    height: 4px;
-    background-color: #f8a500;
-    margin: 4px 0;
 }
 
 .logo h1 {
@@ -203,14 +185,28 @@ body{
 
 .HomeImageText{
     position: absolute;
-    left: 0;
+    left: 30px;
+    bottom: 100px;
 }
 
 .DiscoverText{
-
+    color: white;
 }
 
 .GlowFlowText{
-    color: #F29F05;
+    color: #f29f05a9;
     font-weight: bold;
+    font-size: 40px;
+}
+
+
+
+
+.ImagesContainer{
+    background-color: #F29F05;
+    width: 90%;
+    height: 400px;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: 100px;
 }
