@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #083b46;
+}
+
+.container {
+    width: 300px;
+    padding: 20px;
+    background-color: #083b46;
+    color: #ffffff;
+    text-align: center;
+}
+
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.menu-icon .bar {
+    width: 30px;
+    height: 4px;
+    background-color: #f8a500;
+    margin: 4px 0;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #f8a500;
+    margin-bottom: 5px;
+}
+
+.logo p {
+    font-size: 12px;
+    color: #f8a500;
+    letter-spacing: 2px;
+}
+
+.signin-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.signin-form input {
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #083b46;
+}
+
+.signin-form button {
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    background-color: #f8a500;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.forgot-password {
+    font-size: 12px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
+}
+
+.signup-link {
+    font-size: 12px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.signup-link a {
+    color: #f8a500;
+    text-decoration: none;
+}
