@@ -10,6 +10,7 @@
 <?php include 'navbar.php'; ?>   
     <div class="container">
         <!-- Menu Icon -->
+        <div class="menu-icon">
             <div class="bar"></div>
             <div class="bar"></div>
             <div class="bar"></div>
