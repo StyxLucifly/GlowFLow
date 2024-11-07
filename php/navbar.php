@@ -6,7 +6,7 @@
         <a href="#">Our product</a>
         <a href="inlog.php">Register</a>
         <a href="#">Contact</a>
-        <a href="">Manage</a>
+        <a href="#">Manage</a>
         <div onclick="toggleMenu()">X</div>
     </div>
 
