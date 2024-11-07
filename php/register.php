@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../img/BulbIcon.png">
-    <title>GlowFlow • Login</title>
+    <title>GlowFlow • Register</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -25,12 +25,13 @@
         <form class="signin-form">
             <input type="email" placeholder="Email..." required>
             <input type="password" placeholder="Password..." required>
-            <button type="submit">Sign in</button>
+            <input type="password" placeholder="Confirm password..." required>
+            <button type="submit">Sign up</button>
             <a href="#" class="forgot-password">Forgot password ?</a>
         </form>
 
         <div class="signup-link">
-            <p>Don't have an account ? <a href="register.php">Sign up</a></p>
+            <p>Already have an account ? <a href="inlog.php">Sign in</a></p>
         </div>
     </div>
 </div>
