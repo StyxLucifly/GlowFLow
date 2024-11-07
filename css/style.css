@@ -190,7 +190,7 @@ body{
 }
 
 .DiscoverText{
-    color: white;
+    color: #F29F05;
 }
 
 .GlowFlowText{
@@ -212,4 +212,140 @@ body{
 }
 
 
+/* Algemene styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #10454F; /* Donkergroene achtergrondkleur */
+    color: #ffffff;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Menu Icon */
+.menu-icon {
+    cursor: pointer;
+    margin: 20px;
+}
+
+.menu-icon .bar {
+    width: 30px;
+    height: 4px;
+    background-color: #f8a500;
+    margin: 5px 0;
+}
+
+/* Logo */
+.logo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo h1 {
+    color: #f8a500;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.logo p {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+/* About Us sectie */
+.about-section {
+    background-color: #f8a500;
+    border-radius: 25px;
+    padding: 20px;
+    color: #083b46;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Team Profielen */
+.team-profiles {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.team-member {
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 20px;
+    text-align: center;
+    color: #083b46;
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin: 0 auto 15px;
+}
+
+.team-member h3 {
+    font-size: 20px;
+    color: #f8a500;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 14px;
+    color: #333333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Social Media Iconen */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover img {
+    transform: scale(1.1);
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    .team-member {
+        padding: 15px;
+    }
+
+    .social-icons a img {
+        width: 25px;
+        height: 25px;
+    }
+}
 
