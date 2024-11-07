@@ -210,3 +210,111 @@ body{
     margin: 0 auto;
     margin-top: 100px;
 }
+
+
+
+/* Algemene stijl */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #004d4d; /* Donkerblauwe achtergrondkleur */
+    color: #fff;
+}
+
+/* Container voor de teamleden */
+.team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Kaartstijl voor individuele teamleden */
+.team-card {
+    width: 80%;
+    max-width: 400px;
+    background-color: #ff9800; /* Oranje achtergrond voor de kaart */
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Schaduw voor diepte-effect */
+    transition: transform 0.2s;
+}
+
+.team-card:hover {
+    transform: scale(1.05); /* Schaal de kaart iets op bij hover */
+}
+
+/* Stijl voor de teamlidfoto */
+.team-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Naam en titel */
+.team-card h2 {
+    font-size: 1.2em;
+    margin: 5px 0;
+    color: #fff;
+}
+
+/* Biografie-stijl */
+.team-card p {
+    font-size: 0.9em;
+    color: #ffffff;
+}
+
+/* Stijl voor social media-iconen */
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.2s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2); /
+}
+
+
+.menu-icon {
+    display: block;
+    font-size: 2em;
+    color: #ff9800;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    
+    .team-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .team-card {
+        width: 300px;
+        margin: 15px;
+    }
+}
