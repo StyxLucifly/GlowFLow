@@ -3,7 +3,7 @@
     <div class="menu" id="menu">
         <a href="index.php">Home</a>
         <a href="aboutus.php">About us</a>
-        <a href="#">Our product</a>
+        <a href="product.php">Our product</a>
         <a href="inlog.php">Register</a>
         <a href="#">Contact</a>
         <a href="#">Manage</a>
