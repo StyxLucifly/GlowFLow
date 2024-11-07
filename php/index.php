@@ -27,7 +27,7 @@
     <!-- Introductie sectie -->
     <section class="introductie-section">
         <h2>Introductie van het Project "GlowFlow"</h2>
-        <p>GlowFlow is een baanbrekend project dat gericht is op het verduurzamen van openbare verlichting door het energieverbruik drastisch te verlagen en lichtvervuiling te verminderen. In Nederland verbruikt straatverlichting jaarlijks ruim 500 miljoen kilowattuur aan energie – een groot deel hiervan wordt onnodig verspild tijdens rustige nachtelijke uren wanneer er weinig tot geen verkeer is. Het huidige systeem draagt hierdoor bij aan een aanzienlijke CO₂-uitstoot en een toename van lichtvervuiling, wat de natuur en de leefbaarheid in de stad negatief beïnvloedt.</p>
+        <p>GlowFlow is een wereldveranderend project dat gericht is op het verduurzamen van openbare verlichting door het energieverbruik drastisch te verlagen en lichtvervuiling te verminderen. In Nederland verbruikt straatverlichting jaarlijks ruim 500 miljoen kilowattuur aan energie – een groot deel hiervan wordt onnodig verspild tijdens rustige nachtelijke uren wanneer er weinig tot geen verkeer is. Het huidige systeem draagt hierdoor bij aan een aanzienlijke CO₂-uitstoot en een toename van lichtvervuiling, wat de natuur en de leefbaarheid in de stad negatief beïnvloedt.</p>
         
         <h3>Probleemstelling</h3>
         <p>Traditionele straatverlichting blijft de hele nacht aan, ongeacht of er mensen of voertuigen in de buurt zijn. Dit resulteert in enorme hoeveelheden onnodige energieconsumptie en hoge kosten voor gemeenten, terwijl de continue verlichting bovendien lichtvervuiling veroorzaakt. Dit heeft een schadelijke impact op het natuurlijke milieu en verstoort het bioritme van zowel mensen als dieren.</p>
