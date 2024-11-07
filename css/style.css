@@ -1,7 +1,44 @@
 body{
     margin: 0;
     background-color: #10454F;
+}
+.introductie-section {
+    background-color: #10454F; /* Donkergroene achtergrond zoals de rest van de site */
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 800px;
     font-family: Arial, sans-serif;
+}
+
+.introductie-section h2 {
+    font-size: 2em;
+    color: #ffb400; /* Geel/oranje zoals de knoppen */
+    margin-bottom: 10px;
+}
+
+.introductie-section h3 {
+    font-size: 1.5em;
+    color: #ffb400;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.introductie-section p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.introductie-section ul {
+    margin-left: 20px;
+}
+
+.introductie-section li {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 5px;
 }
 
 /* navbar: */
@@ -16,6 +53,51 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #083b46;
+} */
+
+.container {
+    width: 300px;
+    text-align: center;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #f8a500;
+    margin-bottom: 5px;
+}
+
+.logo p {
+    font-size: 12px;
+    color: #f8a500;
+    letter-spacing: 2px;
+}
+
+.signin-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.signin-form input {
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #083b46;
+}
+
+.signin-form button {
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    background-color: #f8a500;
+    color: #ffffff;
+    font-size: 16px;
     cursor: pointer;
     border: solid 2px #F29F05;
 }
@@ -206,7 +288,7 @@ body{
 }
 
 .DiscoverText{
-    color: white;
+    color: #F29F05;
     margin-bottom: 20px;
 }
 
@@ -224,114 +306,208 @@ body{
     height: 400px;
     border-radius: 50px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
-.ProductHomeContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 70%;
-    margin: 0 auto;
-    margin-top: 50px;
-    color: #F29F05;
+
+/* Algemene styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
-.ProductHomeContainer p{
-    letter-spacing: 1px;
-    line-height: 20px;
-}
-
-.SensorImage{
-    width: 200px;
-}
-
-.MoreInfoButton{
-    color: #F29F05;
-    border: solid 1px #F29F05;
-    border-radius: 50px;
-    padding: 10px 20px;
-    text-decoration: none;
-}
-
-/* login pagina */
-
-.LoginLogoContainer{
-    display: flex;
-    justify-content: center;
-}
-
-.logo{
-    width: 150px;
-    margin-bottom: 30px;
-    margin-top: 50px;
+body {
+    background-color: #083b46; 
+    color: #083b46;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-.SubContainer{
-    width: 90%;
+/* Menu Icon */
+.menu-icon {
+    cursor: pointer;
+    margin: 20px;
+}
+
+.menu-icon .bar {
+    width: 30px;
+    height: 4px;
+    background-color: #f8a500;
+    margin: 5px 0;
+}
+
+/* Logo */
+.logo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo h1 {
+    color: #f8a500;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.logo p {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+/* About Us sectie */
+.about-section {
+    background-color: #f8a500;
+    border-radius: 25px;
+    padding: 20px;
+    color: #083b46;
     text-align: center;
 }
 
-.signin-form {
+.about-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Team Profielen */
+.team-profiles {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-top: 20px;
+    gap: 20px;
 }
 
-.signin-form input {
-    padding: 10px 30px;
-    border: none;
+.team-member {
+    background-color: #f8a500;
     border-radius: 25px;
-    font-size: 15px;
-    height: 30px;
+    padding: 20px;
+    text-align: center;
+    color: #083b46;
 }
 
-.signin-form input::placeholder {
-    color: #10454F;
-    font-style: italic;
-  }
-  
-
-.signin-form button {
-    padding: 12px;
-    border: none;
-    border-radius: 25px;
-    background-color: #F29F05;
-    color: #10454F;
-    font-size: 16px;
-    cursor: pointer;
-    height: 50px;
-    margin-top: 50px;
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin: 0 auto 15px;
 }
 
-.forgot-password {
-    font-size: 12px;
-    color: #F29F05;
-    text-decoration: none;
-    display: block;
+.team-member h3 {
+    font-size: 20px;
+    color: #083b46;
+    margin-bottom: 10px;
 }
 
-.signup-link {
-    font-size: 12px;
-    color: #ffffff;
+.team-member p {
+    font-size: 14px;
+    color: #333333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Social Media Iconen */
+.social-icons {
     display: flex;
     justify-content: center;
+    gap: 15px;
 }
 
-.signup-link p{
-    position: absolute;
-    bottom: 20px;
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
 }
 
-.signup-link a {
-    color: #F29F05;
+.social-icons a:hover img {
+    transform: scale(1.1);
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    .team-member {
+        padding: 15px;
+    }
+
+    .social-icons a img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+/* Algemene Stijlen */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #004d4d;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigatie */
+nav ul {
+    list-style: none;
+    background-color: #003333;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ff9800;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
     text-decoration: underline;
+}
+
+/* Product Container */
+.product-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.product-container h1, .product-container h2, .product-container h3 {
+    color: #ff9800;
+    margin-bottom: 10px;
+}
+
+.product-container p, .product-container ul {
+    line-height: 1.6;
+}
+
+/* Gebruiksscenario's */
+.usage-scenarios ul {
+    list-style: none;
+    padding: 0;
+}
+
+.usage-scenarios ul li {
+    background-color: #ff9800;
+    color: #003333;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.usage-scenarios ul li strong {
+    color: #fff;
 }

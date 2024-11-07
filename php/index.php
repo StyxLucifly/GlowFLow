@@ -25,6 +25,7 @@
             <div class="down-arrow"><img src="../img/ArrowDown.png" alt="" class="ArrowDown"></div>
         </div>
     </div>
+
     <div class="ImagesContainer">
         <img src="../img/ImageTwo.svg" alt="">
         <img src="../img/image.svg" alt="">
