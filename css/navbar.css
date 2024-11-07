@@ -1,0 +1,150 @@
+.menu-close {
+    position: absolute;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: solid 2px #F29F05;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navTopBar{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.menu-close:before,
+.menu-close:after {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 2px;
+    background-color: #F29F05;
+}
+
+.menu-close:before {
+    transform: rotate(45deg);
+}
+
+.menu-close:after {
+    transform: rotate(-45deg);
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #10454F;
+    color: white;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    z-index: 9999;
+}
+
+.menu h2{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    position: relative;
+}
+
+.menu a::after {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-right: 3px solid #F29F05;
+    border-top: 3px solid #F29F05;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 15px;
+    border-radius: 3px;
+    margin-top: 3px;
+}
+
+.navImageContainer{
+    border: solid 2px white;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navImageContainer img{
+    width: 20px;
+    height: auto;
+
+}
+
+.menu.active {
+    transform: translateX(0);
+}
+
+.menu a {
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #F29F05;
+    display: block;
+    font-size: 18px;
+}
+
+.hyperlinks.active {
+    color: white;
+}
+
+.hyperlinks.active::after {
+    border-right: 3px solid white;
+    border-top: 3px solid white;
+}
+
+.manage-link-container {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+}
+
+.LogoNavbar{
+    width: 70px;
+    margin-left: 10px;
+}
+
+.LogoOutsideNav{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    width: 60px;
+}
+
+.menusImg{
+    width: 40px;
+    position: fixed;
+    padding: 10px;
+    background-color: #103a43;
+    top: 0;
+    z-index: 9000;
+    border-radius: 0 15px 15px 0;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1000;
+    pointer-events: none;
+}
+
+.overlay.active {
+    opacity: 1;
+    pointer-events: auto;
+}

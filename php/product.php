@@ -1,23 +1,22 @@
+<?php
+    $activePage = 'Product';
+?>
+
+
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Product - GlowFlow</title>
-    <link rel="stylesheet" href="style.css"> <!-- Link naar externe CSS -->
+    <link rel="icon" type="image/x-icon" href="../img/BulbIcon.png">
+    <title>GlowFlow • Product</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+    <?php include 'navbar.php'; ?>
+    <?php include 'pageup.php'; ?>
 
-    <!-- Navigatie Menu -->
-    <nav>
-        <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="about.php">Over Ons</a></li>
-            <li><a href="product.php">Our Product</a></li>
-        </ul>
-    </nav>
 
-    <!-- Product Informatie -->
     <div class="product-container">
         <h1>GlowFlow Product</h1>
         <p><strong>GlowFlow</strong> is ontworpen als een slimme, energie-efficiënte oplossing voor straatverlichting. Door innovatieve technologie zoals bewegingssensoren en energiezuinige LED-verlichting in te zetten, maakt GlowFlow het mogelijk om straatlampen alleen te activeren wanneer er daadwerkelijk beweging wordt gedetecteerd. Deze technologie biedt aanzienlijke voordelen op het gebied van energiebesparing, duurzaamheid, en gebruiksvriendelijkheid.</p>

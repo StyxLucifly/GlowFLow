@@ -34,7 +34,7 @@
     <div class="ProductHomeContainer">
         <img src="../img/SensorImg.png" alt="" class="SensorImage">
         <p>De GlowFlow-lampen zijn uitgerust met geavanceerde tijdsgebonden bewegingssensoren. Deze sensoren detecteren beweging van voetgangers, fietsers en voertuigen binnen een bepaalde radius. Wanneer beweging wordt gedetecteerd, stuurt de sensor een signaal naar de LED-verlichting, die vervolgens inschakelt om de weg veilig te verlichten.</p>
-        <a href="product.php" class="MoreInfoButton">More info</a>
+        <a href="product.php" class="MoreInfoButton">Details</a>
     </div>
 </body>
 </html>
