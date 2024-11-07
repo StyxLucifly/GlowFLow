@@ -10,6 +10,44 @@ body{
     margin: 0;
     background-color: #10454F;
 }
+.introductie-section {
+    background-color: #10454F; /* Donkergroene achtergrond zoals de rest van de site */
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 800px;
+    font-family: Arial, sans-serif;
+}
+
+.introductie-section h2 {
+    font-size: 2em;
+    color: #ffb400; /* Geel/oranje zoals de knoppen */
+    margin-bottom: 10px;
+}
+
+.introductie-section h3 {
+    font-size: 1.5em;
+    color: #ffb400;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.introductie-section p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.introductie-section ul {
+    margin-left: 20px;
+}
+
+.introductie-section li {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 5px;
+}
 
 /* body {
     display: flex;
