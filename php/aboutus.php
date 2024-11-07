@@ -1,124 +1,108 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About us</title>
-    <style>
-  <?php include 'navbar.php'; ?>        
-        /* Algemene stijl */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #004d4d; /* Donkerblauwe achtergrondkleur */
-            color: #fff;
-        }
-        
-        /* Container voor de teamleden */
-        .team-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 20px;
-            padding: 20px;
-        }
-        
-        /* Kaartstijl voor individuele teamleden */
-        .team-card {
-            width: 80%;
-            max-width: 400px;
-            background-color: #ff9800; /* Oranje achtergrond voor de kaart */
-            border-radius: 20px;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            color: #fff;
-        }
-        
-        /* Stijl voor de teamlidfoto */
-        .team-card img {
-            width: 80px;
-            height: 80px;
-            border-radius: 50%;
-            margin-bottom: 10px;
-        }
-        
-        /* Naam en titel */
-        .team-card h2 {
-            font-size: 1.2em;
-            margin: 5px 0;
-            color: #fff;
-        }
-        
-        /* Biografie-stijl */
-        .team-card p {
-            font-size: 0.9em;
-            color: #ffffff;
-        }
-        
-        /* Stijl voor social media-iconen */
-        .social-icons {
-            display: flex;
-            gap: 10px;
-            margin-top: 10px;
-        }
-        
-        .social-icons a {
-            text-decoration: none;
-            color: #fff;
-            font-size: 1.5em;
-        }
-
-        /* Responsive navigatieknop */
-        .menu-icon {
-            display: block;
-            font-size: 2em;
-            color: #ff9800;
-            position: absolute;
-            top: 20px;
-            left: 20px;
-        }
-    </style>
+    <title>About Us - GlowFlow</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <!-- Menu Icon -->
+        <div class="menu-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        
+        <!-- Logo -->
+        <div class="logo">
+            <h1>GLOWFLOW</h1>
+            <p>About Us</p>
+        </div>
 
-    <!-- Menu-knop -->
-    <div class="menu-icon">☰</div>
+        <!-- About Us Content -->
+        <section class="about-section">
+            <h2>About Us</h2>
+            <p>GlowFlow </p>
 
-    <div class="team-container">
-        <!-- Teamkaart voor één lid, herhaal dit blok voor elk lid -->
-        <?php
-            // Array met teamleden
-            $teamleden = [
-                [
-                    "naam" => "Remco Toonders",
-                    "foto" => "team-lid1.jpg", // Plaats hier de naam van de foto voor het lid
-                    "beschrijving" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-                    "instagram" => "#", // Plaats hier de Instagram-link
-                    "twitter" => "#",   // Plaats hier de Twitter-link
-                    "linkedin" => "#"   // Plaats hier de LinkedIn-link
-                ],
-                // Voeg meer teamleden toe op dezelfde manier
-            ];
+            <!-- Team Profiles -->
+            <div class="team-profiles">
+                <!-- Team Member 1 -->
+                <div class="team-member">
+                    <div class="profile-pic"></div>
+                    <h3>Remco Toonders</h3>
+                    <p>Mijn naam is Remco Toonders, ik ben 19 jaar oud en woon in Someren samen met mijn ouders, mijn zus en onze hond, in mijn vrije tijd ben ik graag bezig met mijn hobby's zoals Formule 1, uitgaan en alles wat met auto's te maken heeft!
+Voordat ik mijn studie HBO-ICT begon, heb ik MBO-niveau 4 Software Developer gedaan op het ROC Ter Aa in Helmond. Toen ik klaar was met mijn Mbo-opleiding, was ik pas 18 jaar. dat vond ik nog te jong om meteen te gaan werken en merkte dat ik daar nog niet aan toe was. Daarom koos ik ervoor om verder te studeren op het Fontys.
+ Naast mijn studie werk ik al ruim 3 jaar op de zaterdagen bij een kippenboer in Someren-Heide, waar ik help met verschillende taken in en rond de stallen. </p>
+                    <div class="social-icons">
+                        <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+                        <a href="#"><img src="x-icon.png" alt="X (Twitter)"></a>
+                        <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+                    </div>
+                </div>
+ <!-- Team Profiles -->
+ <div class="team-profiles">
+                <!-- Team Member 2 -->
+                <div class="team-member">
+                    <div class="profile-pic"></div>
+                    <h3>Daan</h3>
+                    <p>Mijn naam is Remco Toonders, ik ben 19 jaar oud en woon in Someren samen met mijn ouders, mijn zus en onze hond, in mijn vrije tijd ben ik graag bezig met mijn hobby's zoals Formule 1, uitgaan en alles wat met auto's te maken heeft!
+Voordat ik mijn studie HBO-ICT begon, heb ik MBO-niveau 4 Software Developer gedaan op het ROC Ter Aa in Helmond. Toen ik klaar was met mijn Mbo-opleiding, was ik pas 18 jaar. dat vond ik nog te jong om meteen te gaan werken en merkte dat ik daar nog niet aan toe was. Daarom koos ik ervoor om verder te studeren op het Fontys.
+ Naast mijn studie werk ik al ruim 3 jaar op de zaterdagen bij een kippenboer in Someren-Heide, waar ik help met verschillende taken in en rond de stallen. </p>
+                    <div class="social-icons">
+                        <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+                        <a href="#"><img src="x-icon.png" alt="X (Twitter)"></a>
+                        <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+                    </div>
+                </div>
+                 <!-- Team Profiles -->
+            <div class="team-profiles">
+                <!-- Team Member 3 -->
+                <div class="team-member">
+                    <div class="profile-pic"></div>
+                    <h3>Julian</h3>
+                    <p>Mijn naam is Remco Toonders, ik ben 19 jaar oud en woon in Someren samen met mijn ouders, mijn zus en onze hond, in mijn vrije tijd ben ik graag bezig met mijn hobby's zoals Formule 1, uitgaan en alles wat met auto's te maken heeft!
+Voordat ik mijn studie HBO-ICT begon, heb ik MBO-niveau 4 Software Developer gedaan op het ROC Ter Aa in Helmond. Toen ik klaar was met mijn Mbo-opleiding, was ik pas 18 jaar. dat vond ik nog te jong om meteen te gaan werken en merkte dat ik daar nog niet aan toe was. Daarom koos ik ervoor om verder te studeren op het Fontys.
+ Naast mijn studie werk ik al ruim 3 jaar op de zaterdagen bij een kippenboer in Someren-Heide, waar ik help met verschillende taken in en rond de stallen. </p>
+                    <div class="social-icons">
+                        <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+                        <a href="#"><img src="x-icon.png" alt="X (Twitter)"></a>
+                        <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+                    </div>
+                </div>
+                 <!-- Team Profiles -->
+            <div class="team-profiles">
+                <!-- Team Member 1 -->
+                <div class="team-member">
+                    <div class="profile-pic"></div>
+                    <h3>Omar</h3>
+                    <p>Mijn naam is Remco Toonders, ik ben 19 jaar oud en woon in Someren samen met mijn ouders, mijn zus en onze hond, in mijn vrije tijd ben ik graag bezig met mijn hobby's zoals Formule 1, uitgaan en alles wat met auto's te maken heeft!
+Voordat ik mijn studie HBO-ICT begon, heb ik MBO-niveau 4 Software Developer gedaan op het ROC Ter Aa in Helmond. Toen ik klaar was met mijn Mbo-opleiding, was ik pas 18 jaar. dat vond ik nog te jong om meteen te gaan werken en merkte dat ik daar nog niet aan toe was. Daarom koos ik ervoor om verder te studeren op het Fontys.
+ Naast mijn studie werk ik al ruim 3 jaar op de zaterdagen bij een kippenboer in Someren-Heide, waar ik help met verschillende taken in en rond de stallen. </p>
+                    <div class="social-icons">
+                        <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+                        <a href="#"><img src="x-icon.png" alt="X (Twitter)"></a>
+                        <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+                    </div>
+                </div>
 
-            // Loop door elk teamlid en maak een kaart
-            foreach ($teamleden as $lid) {
-                echo '<div class="team-card">';
-                echo '<img src="' . $lid["foto"] . '" alt="Foto van ' . $lid["naam"] . '">';
-                echo '<h2>' . $lid["naam"] . '</h2>';
-                echo '<p>' . $lid["beschrijving"] . '</p>';
-                echo '<div class="social-icons">';
-                echo '<a href="' . $lid["instagram"] . '"><img src="instagram-icon.png" alt="Instagram"></a>';
-                echo '<a href="' . $lid["twitter"] . '"><img src="twitter-icon.png" alt="Twitter"></a>';
-                echo '<a href="' . $lid["linkedin"] . '"><img src="linkedin-icon.png" alt="LinkedIn"></a>';
-                echo '</div>';
-                echo '</div>';
-            }
-        ?>
+                <!-- Team Member 5 (Je kunt extra teamleden toevoegen zoals hieronder) -->
+                <div class="team-member">
+                    <div class="profile-pic"></div>
+                    <h3>Roza Bruggeman</h3>
+                    <p>Mijn naam is Roza Bruggeman, ik ben 24 jaar oud en woon nu in Eindhoven met de vriendin van mijn vader. In mijn vrije tijd spendeer ik mijn tijd graag met vrienden/familie en anders ben ik bezig met mijn hobby's. 
+Voordat ik bij de hbo-ICT opleiding ben begonnen heb ik mbo-niveau 3 zelfstandig werkend kok gevolgd op de Rooi pannen te Tilburg. Na een paar jaar in de horeca gewerkt te hebben was ik toe aan een andere richting. 
+Ik ben al lang gepassioneerd over de staat waar de aarde zich in verkeerd. Het klimaat heeft een onomkeerbaar punt al gepasseerd, maar dat betekent niet dat we minder moeten doen. Juist nu is nog de tijd om een verandering te kunnen maken, daarom draag ik graag bij met ons idee: GlowFlow. 
+</p>
+                    <div class="social-icons">
+                        <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+                        <a href="#"><img src="x-icon.png" alt="X (Twitter)"></a>
+                        <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
-
 </body>
 </html>
