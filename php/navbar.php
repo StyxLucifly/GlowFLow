@@ -2,11 +2,11 @@
     
     <div class="menu" id="menu">
         <a href="index.php">Home</a>
-        <a href="#">About us</a>
+        <a href="aboutus.php">About us</a>
         <a href="#">Our product</a>
         <a href="inlog.php">Register</a>
         <a href="#">Contact</a>
-        <a href="#">Manage</a>
+        <a href="">Manage</a>
         <div onclick="toggleMenu()">X</div>
     </div>
 
