@@ -8,6 +8,9 @@
     <script src="script.js" defer></script> 
 </head>
 <body>
+<?php include 'navbar.php'; ?>
+<?php include 'pageup.php'; ?>
+
 
     <!-- Navigatie Menu -->
     <nav>
