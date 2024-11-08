@@ -45,7 +45,7 @@ h2 {
 /* Pijltje toevoegen als afbeelding */
 .faq-question::after {
     content: ""; /* Leeg laten om de afbeelding te gebruiken */
-    background-image: url('arrowdownblue.png'); /* Geef hier het pad naar de afbeelding aan */
+    background-image: url('../img/arrowdownblue.png'); /* Geef hier het pad naar de afbeelding aan */
     background-size: contain;
     background-repeat: no-repeat;
     width: 16px; /* Pas de grootte aan op basis van jouw afbeelding */
