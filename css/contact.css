@@ -1,7 +1,7 @@
 /* Basic styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #004d4d;
     margin: 0;
     padding: 0;
 }
@@ -59,7 +59,7 @@ body {
 }
 
 /* Rotate arrow when checkbox is checked */
-.faq-item input[type="checkbox"]:checked + .faq-question img.faq-arrow {
+.faq-item input[type="checkbox"]:checked + .faq-question img.arrowdownblue.png {
     transform: rotate(180deg); /* Rotate 180 degrees */
 }
 
