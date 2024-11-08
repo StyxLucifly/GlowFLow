@@ -1,72 +1,74 @@
-/* Algemene Stijlen */
+/* Basisstijl voor FAQ-sectie */
 body {
     font-family: Arial, sans-serif;
     background-color: #10454F;
-    color: #fff;
-    margin: 0;
-    padding: 0;
+    color: #F29F05;
 }
 
-/* Navigatie */
-nav ul {
-    list-style: none;
+.faq-section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
     background-color: #10454F;
-    padding: 15px;
+    color: #F29F05;
+    border-radius: 10px;
+}
+
+h2 {
     text-align: center;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #F29F05;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Contact Container */
-.contact-container {
-    padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-/* FAQ Container */
-.faq-container {
-    background-color: #10454F;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-.faq-container h2 {
-    color: #F29F05;
-    margin-bottom: 10px;
-}
-
-/* FAQ Item */
+/* FAQ item styling */
 .faq-item {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
+/* Stijl de checkbox om hem te verbergen */
+.faq-item input[type="checkbox"] {
+    display: none;
+}
+
+/* Label (vraag) styling en pijltje */
 .faq-question {
-    width: 100%;
-    padding: 15px;
-    font-size: 16px;
-    color: #10454F;
-    background-color: #F29F05;
-    border: none;
+    display: flex;
+    align-items: center;
     cursor: pointer;
-    text-align: left;
+    padding: 10px;
+    background-color: #F29F05;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    position: relative;
+    transition: background-color 0.3s ease;
 }
 
+/* Pijltje toevoegen */
+.faq-question::after {
+    content: "▼"; /* Pijltje naar beneden */
+    font-size: 12px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.3s ease;
+}
+
+/* Roteer het pijltje als de FAQ opengeklapt is */
+.faq-item input[type="checkbox"]:checked + .faq-question::after {
+    transform: rotate(180deg); /* Pijltje omhoog */
+}
+
+/* Antwoordstijl, standaard verborgen */
 .faq-answer {
-    display: none; /* Verborgen bij start */
-    background-color: #ffb121;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background-color: #F29F05;
+    color: #10454F;
+    padding: 0 10px;
+    border-radius: 0 0 5px 5px;
+}
+
+/* Toon het antwoord als de checkbox is aangevinkt */
+.faq-item input[type="checkbox"]:checked ~ .faq-answer {
+    max-height: 150px; /* Past zich aan aan de hoogte van het antwoord */
     padding: 10px;
-    color: #333;
 }
