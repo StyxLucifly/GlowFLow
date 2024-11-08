@@ -1,7 +1,7 @@
 /* Basic styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #10454F;
     margin: 0;
     padding: 0;
 }
@@ -42,7 +42,7 @@ body {
     display: flex;
     align-items: center;
     padding: 15px;
-    background-color: #ffcc00; /* Yellow background for question */
+    background-color: #F29F05; /* Yellow background for question */
     color: #10454F; /* Dark text color */
     cursor: pointer;
     font-weight: bold;
@@ -65,7 +65,7 @@ body {
 /* FAQ Answer Styling */
 .faq-answer {
     display: none;
-    background-color: #F29F05; /* Orange background for answer */
+    background-color: #ffcc00; /* Orange background for answer */
     padding: 15px;
     color: #10454F;
     border-top: 1px solid #10454F;
