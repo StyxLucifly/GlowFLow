@@ -42,10 +42,14 @@ h2 {
     transition: background-color 0.3s ease;
 }
 
-/* Pijltje toevoegen */
+/* Pijltje toevoegen als afbeelding */
 .faq-question::after {
-    content: "arrowdownblue.png"; /* Pijltje naar beneden */
-    font-size: 12px;
+    content: ""; /* Leeg laten om de afbeelding te gebruiken */
+    background-image: url('arrowdownblue.png'); /* Geef hier het pad naar de afbeelding aan */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 16px; /* Pas de grootte aan op basis van jouw afbeelding */
+    height: 16px;
     position: absolute;
     right: 20px;
     transition: transform 0.3s ease;
