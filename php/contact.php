@@ -36,8 +36,8 @@
         </div>
     </div>
     <div class="faq-item">
-        <input type="checkbox" id="faq1">
-        <label class="faq-question" for="faq1">
+        <input type="checkbox" id="faq3">
+        <label class="faq-question" for="faq3">
             <img src="/img/arrowdownblue.png" class="faq-arrow" alt="arrow icon">
             Waarom zou ik GlowFlow kiezen in plaats van een standaard LED-verlichtingssysteem?
         </label>
@@ -46,8 +46,8 @@
         </div>
     </div>
     <div class="faq-item">
-        <input type="checkbox" id="faq1">
-        <label class="faq-question" for="faq1">
+        <input type="checkbox" id="faq4">
+        <label class="faq-question" for="faq4">
             <img src="/img/arrowdownblue.png" class="faq-arrow" alt="arrow icon">
             Kan GlowFlow worden geïnstalleerd op bestaande straatverlichting?
         </label>
@@ -56,8 +56,8 @@
         </div>
     </div>
     <div class="faq-item">
-        <input type="checkbox" id="faq1">
-        <label class="faq-question" for="faq1">
+        <input type="checkbox" id="faq5">
+        <label class="faq-question" for="faq5">
             <img src="/img/arrowdownblue.png" class="faq-arrow" alt="arrow icon">
             
         Welke voordelen biedt GlowFlow op het gebied van duurzaamheid? 
@@ -68,8 +68,8 @@
         </div>
     </div>
     <div class="faq-item">
-        <input type="checkbox" id="faq1">
-        <label class="faq-question" for="faq1">
+        <input type="checkbox" id="faq6">
+        <label class="faq-question" for="faq6">
             <img src="/img/arrowdownblue.png" class="faq-arrow" alt="arrow icon">
             Voor welke locaties is GlowFlow het meest geschikt? 
 
@@ -79,8 +79,8 @@
         </div>
     </div>
     <div class="faq-item">
-        <input type="checkbox" id="faq1">
-        <label class="faq-question" for="faq1">
+        <input type="checkbox" id="faq7">
+        <label class="faq-question" for="faq7">
             <img src="/img/arrowdownblue.png" class="faq-arrow" alt="arrow icon">
             Hoe verloopt het onderhoud van het GlowFlow-systeem?
         </label>
@@ -89,8 +89,8 @@
         </div>
     </div>
     <div class="faq-item">
-        <input type="checkbox" id="faq1">
-        <label class="faq-question" for="faq1">
+        <input type="checkbox" id="faq8">
+        <label class="faq-question" for="faq8">
             <img src="/img/arrowdownblue.png" class="faq-arrow" alt="arrow icon">
             Hoe kan ik de instellingen aanpassen, zoals gevoeligheid en tijdschema’s?
         </label>
@@ -99,8 +99,8 @@
     </div>
     </div>
     <div class="faq-item">
-        <input type="checkbox" id="faq1">
-        <label class="faq-question" for="faq1">
+        <input type="checkbox" id="faq9">
+        <label class="faq-question" for="faq9">
             <img src="/img/arrowdownblue.png" class="faq-arrow" alt="arrow icon">
             Hoe veilig is het systeem tegen inbraak of hacking?
             </label>
@@ -109,8 +109,8 @@
             </div>
     </div>
     <div class="faq-item">
-        <input type="checkbox" id="faq1">
-        <label class="faq-question" for="faq1">
+        <input type="checkbox" id="faq10">
+        <label class="faq-question" for="faq10">
             <img src="/img/arrowdownblue.png" class="faq-arrow" alt="arrow icon">
             Is GlowFlow geschikt voor afgelegen of landelijke gebieden? 
             </label>
@@ -118,8 +118,8 @@
         Ja, GlowFlow kan ook in minder drukbevolkte gebieden worden ingezet. De bewegingssensoren activeren verlichting wanneer dat nodig is, wat ideaal is voor locaties waar weinig verkeer is.        </div>
     </div>
     <div class="faq-item">
-        <input type="checkbox" id="faq1">
-        <label class="faq-question" for="faq1">
+        <input type="checkbox" id="faq11">
+        <label class="faq-question" for="faq11">
             <img src="/img/arrowdownblue.png" class="faq-arrow" alt="arrow icon">
             Hoeveel kost de installatie en wat zijn de terugverdientijden?
         </label>
@@ -128,8 +128,8 @@
             </div>
     </div>
     <div class="faq-item">
-        <input type="checkbox" id="faq1">
-        <label class="faq-question" for="faq1">
+        <input type="checkbox" id="faq12">
+        <label class="faq-question" for="faq12">
             <img src="/img/arrowdownblue.png" class="faq-arrow" alt="arrow icon">
             Zijn er subsidies beschikbaar voor de installatie van GlowFlow?
             </label>
@@ -138,8 +138,8 @@
       </div>
     </div>
     <div class="faq-item">
-        <input type="checkbox" id="faq1">
-        <label class="faq-question" for="faq1">
+        <input type="checkbox" id="faq13">
+        <label class="faq-question" for="faq13">
             <img src="/img/arrowdownblue.png" class="faq-arrow" alt="arrow icon">
             Kan het systeem worden geïntegreerd met andere smart city-technologieën?
         </label>
@@ -148,8 +148,8 @@
        </div>
     </div>
     <div class="faq-item">
-        <input type="checkbox" id="faq1">
-        <label class="faq-question" for="faq1">
+        <input type="checkbox" id="faq14">
+        <label class="faq-question" for="faq14">
             <img src="/img/arrowdownblue.png" class="faq-arrow" alt="arrow icon">
             Wat gebeurt er als de sensor niet werkt of de verbinding wordt verbroken?
             </label>
@@ -158,8 +158,8 @@
             </div>
     </div>
     <div class="faq-item">
-        <input type="checkbox" id="faq1">
-        <label class="faq-question" for="faq1">
+        <input type="checkbox" id="faq15">
+        <label class="faq-question" for="faq15">
             <img src="/img/arrowdownblue.png" class="faq-arrow" alt="arrow icon">
             Hoe kan ik GlowFlow aanschaffen en implementeren? 
             </label>
