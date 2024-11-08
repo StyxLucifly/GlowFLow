@@ -31,6 +31,19 @@ body {
     overflow: hidden;
 }
 
+
+
+/* Add rounded corners to the first and last FAQ items */
+.faq-item:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.faq-item:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
 /* Hide checkbox */
 .faq-item input[type="checkbox"] {
     display: none;
