@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GlowFlow FAQ</title>
-    <link rel="stylesheet" href="style.css"> <!-- Verwijzing naar de CSS-stylesheet -->
+    <link rel="stylesheet" href="../css/contact.css"> <!-- Verwijzing naar de CSS-stylesheet -->
 </head>
 <body>
 
-<div class="faq-section">
     <h2>FAQ</h2>
     <?php
     // FAQ-vragen en antwoorden
