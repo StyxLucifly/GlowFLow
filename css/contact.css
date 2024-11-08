@@ -1,7 +1,7 @@
 /* Basic styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #10454F;
+    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
 }
@@ -12,7 +12,7 @@ body {
     max-width: 600px;
     margin: auto;
     padding: 20px;
-    background-color: #10454F;
+    background-color: #004d4d;
     color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -27,12 +27,12 @@ body {
 /* FAQ Item Styling */
 .faq-item {
     margin-bottom: 10px;
-    border: 2px solid #10454F; /* Outer border for each item */
+    border: 2px solid #004d4d; /* Outer border for each item */
     border-radius: 5px;
     overflow: hidden;
 }
 
-/* Checkbox to toggle answer visibility */
+/* Hide checkbox */
 .faq-item input[type="checkbox"] {
     display: none;
 }
@@ -42,33 +42,34 @@ body {
     display: flex;
     align-items: center;
     padding: 15px;
-    background-color: #F29F05; /* Yellow background for question */
-    color: #10454F; /* Dark text color */
+    background-color: #ffcc00; /* Yellow background for question */
+    color: #004d4d; /* Dark text color */
     cursor: pointer;
     font-weight: bold;
-    border-bottom: 1px solid #10454F;
+    border-bottom: 1px solid #004d4d;
     position: relative;
 }
 
+/* Arrow icon styling */
 .faq-question img.faq-arrow {
     margin-right: 10px;
     width: 20px; /* Adjust the size if needed */
     height: 20px;
-    transition: transform 0.3s;
+    transition: transform 0.3s; /* Smooth rotation */
 }
 
-/* Rotate arrow when answer is shown */
+/* Rotate arrow when checkbox is checked */
 .faq-item input[type="checkbox"]:checked + .faq-question img.faq-arrow {
-    transform: rotate(180deg);
+    transform: rotate(180deg); /* Rotate 180 degrees */
 }
 
 /* FAQ Answer Styling */
 .faq-answer {
     display: none;
-    background-color: #ffcc00; /* Orange background for answer */
+    background-color: #ff9900; /* Orange background for answer */
     padding: 15px;
-    color: #10454F;
-    border-top: 1px solid #10454F;
+    color: #004d4d;
+    border-top: 1px solid #004d4d;
 }
 
 /* Show answer when checkbox is checked */
