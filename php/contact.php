@@ -173,8 +173,7 @@
         
        
 
-    // Genereer de FAQ dropdowns
-    foreach ($faqs as $index => $questionAnswer) {
+     {
         echo "
         <div class='faq-item'>
             <input type='checkbox' id='faq-$index'>
@@ -184,7 +183,7 @@
             </div>
         </div>";
     }
-    ?>
+    
 </div>
 
 </body>
