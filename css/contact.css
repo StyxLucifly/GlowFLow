@@ -44,7 +44,7 @@ h2 {
 
 /* Pijltje toevoegen */
 .faq-question::after {
-    content: "▼"; /* Pijltje naar beneden */
+    content: "arrowdownblue.png"; /* Pijltje naar beneden */
     font-size: 12px;
     position: absolute;
     right: 20px;
