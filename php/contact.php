@@ -168,23 +168,7 @@
           </div>
     </div>
 
-</div>
 
-        
-       
-
-     {
-        echo "
-        <div class='faq-item'>
-            <input type='checkbox' id='faq-$index'>
-            <label class='faq-question' for='faq-$index'>$questionAnswer[0]</label>
-            <div class='faq-answer'>
-                <p>$questionAnswer[1]</p>
-            </div>
-        </div>";
-    }
-    
-</div>
 
 </body>
 </html>
