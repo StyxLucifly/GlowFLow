@@ -12,13 +12,12 @@ body{
     margin-top: 75px;
 }
 
-.down-arrow {
-    animation: bounce 3s infinite ease-in-out;
-    margin-bottom: 30px;
-}
+
 
 .ArrowDown{
-    width: 20px;;
+    width: 20px;
+    animation: bounce 3s infinite ease-in-out;
+    margin-bottom: 30px;
 }
 
 @keyframes bounce {
@@ -198,6 +197,7 @@ input::placeholder {
 .AboutUsContainer{
     width: 90%;
     margin: 0 auto;
+    margin-top: 75px;
 }
 
 .about-section p {
@@ -209,27 +209,57 @@ input::placeholder {
     background-color: #F29F05;
     border-radius: 25px;
     padding: 20px;
-    text-align: center;
     color: #10454F;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.team-member:nth-child(odd) {
+    background-color: #F29F05; /* Gele achtergrondkleur voor oneven elementen */
+}
+
+.team-member:nth-child(even) {
+    background-color: transparent; /* Groene achtergrondkleur voor even elementen */
+    color: #F29F05; /* Tekstkleur aangepast voor contrast */
+}
+
+.team-member:nth-child(odd) .ImgNameContainer h3 {
+    color: #10454F; /* Kleur voor oneven team-members */
+}
+
+.team-member:nth-child(even) .ImgNameContainer h3 {
+    color: #F29F05; /* Kleur voor even team-members */
+}
+
+
+
+.ImgNameContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .profile-pic {
-    width: 80px;
-    height: 80px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
-    background-color: white;
-    margin: 0 auto 15px;
+    object-fit: cover;
 }
 
+
 .team-member h3 {
-    font-size: 20px;
+    font-size: 25px;
     color: #10454F;
     margin-bottom: 10px;
+    text-align: start;
 }
 
 .team-member p {
     font-size: 14px;
-    color: black;
+    color: white;
     line-height: 1.6;
     margin-bottom: 15px;
 }
@@ -237,18 +267,14 @@ input::placeholder {
 .social-icons {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 50px;
 }
 
 .social-icons a img {
-    width: 30px;
-    height: 30px;
-    transition: transform 0.3s ease;
+    width: 50px;
+    height: 50px;
 }
 
-.social-icons a:hover img {
-    transform: scale(1.1);
-}
 
 
 
@@ -257,9 +283,9 @@ input::placeholder {
 
 /* Product Container */
 .product-container {
-    padding: 20px;
-    max-width: 800px;
+    max-width: 90%;
     margin: 0 auto;
+    margin-top: 75px;
 }
 
 .product-container h1, .product-container h2, .product-container h3 {
@@ -269,7 +295,26 @@ input::placeholder {
 
 .product-container p, .product-container ul {
     line-height: 1.6;
+    color: white;
 }
+
+.product-container h2{
+    color: white;
+}
+
+.product-container h3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ArrowDropdown {
+    width: 15px;
+    display: inline-block;
+    transform: rotate(-90deg);
+    transition: transform 0.3s;
+}
+
 
 .usage-scenarios ul {
     list-style: none;
@@ -286,4 +331,151 @@ input::placeholder {
 
 .usage-scenarios ul li strong {
     color: #ffffff;
+}
+
+
+
+
+
+
+/* contact pagina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #10454F;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-form-section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #10454F;
+    border-radius: 5px;
+    background-color: #F29F05;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #000000;
+}
+
+.contact-form button {
+    background-color: #F29F05;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #F29F05;
+}
+
+
+/* FAQ Section Styling */
+.faq-section {
+    width: 80%;
+    max-width: 90%;
+    margin: auto;
+    padding: 20px;
+    background-color: #10454F;
+    color: #fff;
+    border-radius: 10px;
+}
+
+
+/* FAQ Item Styling */
+.faq-item {
+    margin-bottom: 10px;
+    border: 2px solid #10454F; /* Outer border for each item */
+    overflow: hidden;
+}
+
+.faq-item {
+  
+    margin-bottom: 10px; /* Voeg ruimte toe tussen de items */
+}
+.faq-section .faq-item:first-of-type {
+    border-radius: 10px 10px 0 0;
+}
+
+.faq-section .faq-item:last-of-type {
+    border-radius: 0 0 10px 10px;
+}
+
+
+
+/* Hide checkbox */
+.faq-item input[type="checkbox"] {
+    display: none;
+}
+
+/* FAQ Question Styling (alternating colors) */
+.faq-item:nth-child(odd) .faq-question {
+    background-color: #ffcc00; /* Yellow background for odd questions */
+    color: #10454F; /* Dark text color */
+}
+
+.faq-item:nth-child(even) .faq-question {
+    background-color: #F29F05; /* Orange background for even questions */
+    color: #10454F; /* Dark text color */
+}
+
+/* FAQ Answer Styling (alternating colors) */
+.faq-item:nth-child(odd) .faq-answer {
+    background-color: #F29F05; /* Orange background for odd answers */
+    color: #004d4d;
+}
+
+.faq-item:nth-child(even) .faq-answer {
+    background-color: #ffcc00; /* Yellow background for even answers */
+    color: #004d4d;
+}
+
+/* FAQ Question Styling */
+.faq-question {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-bottom: 1px solid #10454F;
+    position: relative;
+}
+
+/* Arrow icon styling */
+.faq-question img.faq-arrow {
+    margin-right: 10px;
+    width: 20px; /* Adjust the size if needed */
+    height: 20px;
+    transition: transform 0.3s; /* Smooth rotation */
+}
+
+/* Rotate arrow when checkbox is checked */
+.faq-item input[type="checkbox"]:checked + .faq-question img.faq-arrow {
+ rotate: 180deg ; /* Rotate 180 degrees */
+}
+
+/* FAQ Answer Styling */
+.faq-answer {
+    display: none;
+    padding: 15px;
+    border-top: 1px solid #10454F;
+}
+
+/* Show answer when checkbox is checked */
+.faq-item input[type="checkbox"]:checked ~ .faq-answer {
+    display: block;
 }

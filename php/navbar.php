@@ -18,7 +18,7 @@
         <h2><div class="navImageContainer"><img src="../img/infoIcon.png" alt=""></div><a href="aboutus.php" class="hyperlinks <?php echo $activePage == 'About' ? 'active' : ''; ?>">About us</a></h2>
         <h2><div class="navImageContainer"><img src="../img/sensorIcon.png" alt=""></div><a href="product.php" class="hyperlinks <?php echo $activePage == 'Product' ? 'active' : ''; ?>">Our product</a></h2>
         <h2><div class="navImageContainer"><img src="../img/userIcon.png" alt=""></div><a href="inlog.php" class="hyperlinks <?php echo $activePage == 'Login' ? 'active' : ''; ?>">Login</a></h2>
-        <h2><div class="navImageContainer"><img src="../img/contactIcon.png" alt=""></div><a href="#" class="hyperlinks <?php echo $activePage == 'Contact' ? 'active' : ''; ?>">Contact</a></h2>
+        <h2><div class="navImageContainer"><img src="../img/contactIcon.png" alt=""></div><a href="contact.php" class="hyperlinks <?php echo $activePage == 'Contact' ? 'active' : ''; ?>">Contact</a></h2>
         <div class="manage-link-container">
             <h2><div class="navImageContainer"><img src="../img/graphIcon.png" alt=""></div><a href="#" class="hyperlinks <?php echo $activePage == 'Manage' ? 'active' : ''; ?>">Manage</a></h2>
         </div>

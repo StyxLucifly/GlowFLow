@@ -22,7 +22,7 @@
                 <h2 class="DiscoverText">Discover</h2>
                 <h2 class="GlowFlowText">GlowFlow</h2>
             </div>
-            <div class="down-arrow"><img src="../img/ArrowDown.png" alt="" class="ArrowDown"></div>
+            <img src="../img/ArrowDown.png" alt="" class="ArrowDown">
         </div>
     </div>
 
@@ -36,5 +36,9 @@
         <p>De GlowFlow-lampen zijn uitgerust met geavanceerde tijdsgebonden bewegingssensoren. Deze sensoren detecteren beweging van voetgangers, fietsers en voertuigen binnen een bepaalde radius. Wanneer beweging wordt gedetecteerd, stuurt de sensor een signaal naar de LED-verlichting, die vervolgens inschakelt om de weg veilig te verlichten.</p>
         <a href="product.php" class="MoreInfoButton">Details</a>
     </div>
+
+
+
+    <?php include 'footer.php'; ?>
 </body>
 </html>
