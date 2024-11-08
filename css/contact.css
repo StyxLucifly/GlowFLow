@@ -6,10 +6,48 @@ body {
     padding: 0;
 }
 
+.contact-form-section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #10454F;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #000000;
+}
+
+.contact-form button {
+    background-color: #F29F05;
+    color: #10454F;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #F29F05;
+}
+
+
 /* FAQ Section Styling */
 .faq-section {
     width: 80%;
-    max-width: 600px;
+    max-width: 90%;
     margin: auto;
     padding: 20px;
     background-color: #10454F;
@@ -27,21 +65,22 @@ body {
 .faq-item {
     margin-bottom: 10px;
     border: 2px solid #10454F; /* Outer border for each item */
-    border-radius: 5px;
     overflow: hidden;
 }
 
-
-
-/* Add rounded corners to the first and last FAQ items */
-.faq-item:first-child {
-
+.faq-item {
+  
+    margin-bottom: 10px; /* Voeg ruimte toe tussen de items */
+}
+.faq-section .faq-item:first-of-type {
     border-radius: 10px 10px 0 0;
 }
 
-.faq-item:last-child {
-    border-radius: 0 0 10px 10px ;
+.faq-section .faq-item:last-of-type {
+    border-radius: 0 0 10px 10px;
 }
+
+
 
 /* Hide checkbox */
 .faq-item input[type="checkbox"] {
@@ -55,13 +94,13 @@ body {
 }
 
 .faq-item:nth-child(even) .faq-question {
-    background-color: #ffcc00; /* Orange background for even questions */
+    background-color: #F29F05; /* Orange background for even questions */
     color: #10454F; /* Dark text color */
 }
 
 /* FAQ Answer Styling (alternating colors) */
 .faq-item:nth-child(odd) .faq-answer {
-    background-color: #ffcc00; /* Orange background for odd answers */
+    background-color: #F29F05; /* Orange background for odd answers */
     color: #004d4d;
 }
 
