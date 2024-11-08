@@ -11,6 +11,26 @@
 <?php include 'navbar.php'; ?>
 <?php include 'pageup.php'; ?>
 
+<!-- Contactformulier -->
+<div class="contact-form-section">
+    <h2>Contactformulier</h2>
+    <form action="verzend_formulier.php" method="post" class="contact-form">
+        <label for="email">E-mailadres:</label>
+        <input type="email" id="email" name="email" required placeholder="Uw e-mailadres" />
+
+        <label for="phone">Telefoonnummer:</label>
+        <input type="tel" id="phone" name="phone" required placeholder="Uw telefoonnummer" pattern="[0-9]{10}" title="Voer een geldig telefoonnummer van 10 cijfers in." />
+
+        <label for="subject">Onderwerp:</label>
+        <input type="text" id="subject" name="subject" required placeholder="Onderwerp van uw bericht" />
+
+        <label for="message">Bericht (max 500 tekens):</label>
+        <textarea id="message" name="message" rows="4" maxlength="500" placeholder="Uw bericht" required></textarea>
+
+        <button type="submit">Verstuur</button>
+    </form>
+</div>
+
 <div class="faq-section">
     <h2>FAQ</h2>
 
@@ -168,7 +188,7 @@
           </div>
     </div>
 
-
+    <?php include 'footer.php'; ?>
 
 </body>
 </html>
